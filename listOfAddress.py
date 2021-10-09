@@ -8,7 +8,7 @@ def test():
     for data in listOfData:
         formatFile = data.split('.')[-1]
         if formatFile == 'jpg':
-            with open('trian.txt', 'a') as f:
+            with open('train.txt', 'a') as f:
                 f.write(base_url + data + '\n')
                 
 

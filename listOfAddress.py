@@ -1,7 +1,7 @@
 from os import listdir
 
 
-base_url='/data/images'
+base_url='/data/images/'
 
 def test():
     listOfData = listdir('./images')   
